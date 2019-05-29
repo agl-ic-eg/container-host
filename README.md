@@ -30,12 +30,21 @@ cp $WORK/meta-renesas/meta-rcar-gen3/docs/sample/conf/m3ulcb/poky-gcc/mmp/*.conf
 cd $WORK/build  
 cp conf/local-wayland.conf conf/local.conf  
 
+### Edit bblayers.conf with layer requirements:
+
+  ${TOPDIR}/../meta-openembedded/meta-networking \  
+  ${TOPDIR}/../meta-openembedded/meta-python \  
+  ${TOPDIR}/../meta-openembedded/meta-filesystems \  
+  ${TOPDIR}/../meta-virtualization \  
+  ${TOPDIR}/../meta-black-test \  
+
 
 ### Edit local.conf with evaluation packages requirements:
 
 DISTRO_FEATURES_append = " use_eva_pkg"  
 
-
+DISTRO_FEATURES_append = " virtualization"  
+IMAGE_INSTALL_append = " docker lxc "  
 
 ### Start the build
 
