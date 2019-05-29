@@ -15,6 +15,8 @@
 	<project path="meta-openembedded" name="meta-openembedded" remote="openembedded" revision="352531015014d1957d6444d114f4451e241c4d23" />
 	<project path="meta-linaro" name="meta-linaro" remote="linaro" revision="75dfb67bbb14a70cd47afda9726e2e1c76731885" />
 
+	<project path="meta-virtualization" name="meta-virtualization" remote="yocto" revision="rocko" />
+
 	<!-- function Layers -->
 
 	<!-- distro Layers -->
