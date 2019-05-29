@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote  name="yocto" fetch="git://git.yoctoproject.org/" pushurl="git://git.yoctoproject.org/" />
+	<remote  name="openembedded" fetch="git://git.openembedded.org/" pushurl="git://git.openembedded.org/" />
+	<remote  name="linaro" fetch="git://git.linaro.org/openembedded" pushurl="git://git.linaro.org/openembedded" />
+	<remote  name="renesas-rcar" fetch="https://github.com/renesas-rcar" pushurl="https://github.com/renesas-rcar" />
+	<remote  name="agl-ic-eg" fetch="https://github.com/agl-ic-eg/" pushurl="https://github.com/agl-ic-eg/" />
+	
+	<default revision="master" />
+
+	<!-- Yocto Layers -->
+	<project path="poky" name="poky" remote="yocto" revision="7e7ee662f5dea4d090293045f7498093322802cc" />
+
+	<!-- Openembedded Layers -->
+	<project path="meta-openembedded" name="meta-openembedded" remote="openembedded" revision="352531015014d1957d6444d114f4451e241c4d23" />
+	<project path="meta-linaro" name="meta-linaro" remote="linaro" revision="75dfb67bbb14a70cd47afda9726e2e1c76731885" />
+
+	<!-- function Layers -->
+
+	<!-- distro Layers -->
+
+	<!-- bsp Layers -->
+	<project path="meta-renesas" name="meta-renesas" remote="renesas-rcar" revision="20fcc94a8d05eda80250f27e87aaa3cfc3275300" />
+</manifest>
