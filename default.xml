@@ -18,6 +18,7 @@
 	<project path="meta-virtualization" name="meta-virtualization" remote="yocto" revision="rocko" />
 
 	<!-- function Layers -->
+	<project path="meta-black-test" name="meta-black-test" remote="agl-ic-eg" revision="lxc-test" />
 
 	<!-- distro Layers -->
 
