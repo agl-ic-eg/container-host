@@ -36,7 +36,7 @@ cp conf/local-wayland.conf conf/local.conf
   ${TOPDIR}/../meta-openembedded/meta-python \  
   ${TOPDIR}/../meta-openembedded/meta-filesystems \  
   ${TOPDIR}/../meta-virtualization \  
-  ${TOPDIR}/../meta-black-test \  
+  ${TOPDIR}/../meta-container-host \  
 
 
 ### Edit local.conf with evaluation packages requirements:
@@ -44,7 +44,7 @@ cp conf/local-wayland.conf conf/local.conf
 DISTRO_FEATURES_append = " use_eva_pkg"  
 
 DISTRO_FEATURES_append = " virtualization"  
-IMAGE_INSTALL_append = " docker lxc "  
+IMAGE_INSTALL_append = " lxc nano "  
 
 ### Start the build
 
