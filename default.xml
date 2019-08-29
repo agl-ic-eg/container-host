@@ -9,13 +9,13 @@
 	<default revision="master" />
 
 	<!-- Yocto Layers -->
-	<project path="poky" name="poky" remote="yocto" revision="7e7ee662f5dea4d090293045f7498093322802cc" />
+	<project path="poky" name="poky" remote="yocto" revision="thud" />
 
 	<!-- Openembedded Layers -->
-	<project path="meta-openembedded" name="meta-openembedded" remote="openembedded" revision="352531015014d1957d6444d114f4451e241c4d23" />
-	<project path="meta-linaro" name="meta-linaro" remote="linaro" revision="75dfb67bbb14a70cd47afda9726e2e1c76731885" />
+	<project path="meta-openembedded" name="meta-openembedded" remote="openembedded" revision="4cd3a39f22a2712bfa8fc657d09fe2c7765a4005" />
+	<project path="meta-linaro" name="meta-linaro" remote="linaro" revision="0a94decea3bd2504590d1637eadff9d502c19ee2" />
 
-	<project path="meta-virtualization" name="meta-virtualization" remote="yocto" revision="rocko" />
+	<project path="meta-virtualization" name="meta-virtualization" remote="yocto" revision="thud" />
 
 	<!-- function Layers -->
 	<project path="meta-container-host" name="meta-container-host" remote="agl-ic-eg" revision="master" />
@@ -23,5 +23,5 @@
 	<!-- distro Layers -->
 
 	<!-- bsp Layers -->
-	<project path="meta-renesas" name="meta-renesas" remote="renesas-rcar" revision="20fcc94a8d05eda80250f27e87aaa3cfc3275300" />
+	<project path="meta-renesas" name="meta-renesas" remote="renesas-rcar" revision="refs/tags/thud-Yocto-v3.21.0" />
 </manifest>
