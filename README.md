@@ -1,5 +1,7 @@
 # Container host repo
 
+This image is based on rocko.
+
 ## Building the BSP for M3 Starter Kit
 
 ### Clone build tree.
