@@ -4,6 +4,8 @@ This image is based on yocto thud release.
 
 ## Building the BSP for M3 Starter Kit
 
+Currently using R-CarGen3 BSP 3.21.
+
 ### Clone build tree.
 
 Move to build directry
