@@ -9,7 +9,7 @@ This image is based on rocko.
 Move to build directry
 
 	export WORK=`pwd`  
-	repo init -u https://github.com/agl-ic-eg/container-host.git  
+	repo init -u https://github.com/agl-ic-eg/container-host.git -b rocko  
 	repo sync  
 
 ### Download proprietary driver modules to $WORK/proprietary folder.
