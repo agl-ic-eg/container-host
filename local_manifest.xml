@@ -1,0 +1,22 @@
+<manifest>
+	<remote  name="agl-ic-eg" fetch="https://github.com/agl-ic-eg/" pushurl="https://github.com/agl-ic-eg/" />
+
+	<!-- function Layers -->
+	<project path="meta-container-host" name="meta-container-host" remote="agl-ic-eg" revision="master" />
+	<project path="meta-container-guest" name="meta-container-guest" remote="agl-ic-eg" revision="master" />
+
+
+	<!-- Remove unused layers from upstream manifest -->
+	<remove-project name="boundarydevices/meta-boundary" />
+	<remove-project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" />
+	<remove-project name="Freescale/meta-freescale-3rdparty" />
+	<remove-project name="kraj/meta-altera" />
+	<remove-project name="meta-freescale" />
+	<remove-project name="meta-intel" />
+	<remove-project name="EmbeddedAndroid/meta-rtlwifi" />
+	<remove-project name="meta-qcom" />
+	<remove-project name="meta-raspberrypi" />
+	<remove-project name="meta-ti" />
+	<remove-project name="SanCloudLtd/meta-sancloud" />
+</manifest>
+
